@@ -1,0 +1,19 @@
+.home-wrapper {
+    padding: 0px 0px 20px 0px;
+    border-left: 10px solid antiquewhite;
+    display: -webkit-inline-flex;
+    width: -webkit-fill-available;
+    gap: 20px;
+    .flex-item-2, .flex-item-1 {
+        width: 50%;
+    }
+    .flex-item-2 {
+        width: -webkit-fill-available;
+    }
+}
+.chat-layout-wrapper {
+    /* border: 1px solid; */
+    height: -webkit-fill-available;
+    /* border-left: 10px solid antiquewhite; */
+    background-color: mintcream;
+}

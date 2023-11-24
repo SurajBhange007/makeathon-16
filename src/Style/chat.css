@@ -1,0 +1,35 @@
+.chat-layout {
+    background: papayawhip;
+    padding: 10px;
+    width: fit-content;
+    display: block;
+    margin-bottom: 20px;
+    &.customer-chat-layout {
+        border: 1px solid gray;
+        border-radius: 0px 20px 20px 20px;
+        float: left;
+        margin-left: 10px;
+    }
+    &.agent-chat-layout {
+        /* display: block; */
+        border: 1px solid gray;
+        float: right;
+        border-radius: 20px 0px 20px 20px;
+        margin-right: 10px;
+    }
+}
+.customer-Id {
+    padding: 7px 10px 7px 10px;
+    display: flex;
+    background-color: darkgray;
+    align-items: center;
+    font-weight: 700;
+    font-size: x-large;
+    color: unset;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+/* .chat-layout-wrapper {
+    border: 1px solid;
+} */

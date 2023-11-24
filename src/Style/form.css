@@ -1,0 +1,95 @@
+
+.form-wrapper {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 2fr; */
+    /* grid-gap: 10px 20px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-bottom: 35px;
+    .label {
+        font-size: 18px;
+        /* font-family: Devanagari MT; */
+    }
+    .text-danger {
+        font-size: 12px;
+        &.error-text {
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+    }
+    .control-field {
+        display: inline-flex;
+        gap: 20px;
+        align-items: center;
+        width: -webkit-fill-available;
+        .item-1 {
+            &.form-label {
+                margin-bottom: 0px !important;
+            }
+            min-width: 80px
+        }
+        padding-bottom: 18px;
+        &.danger-text {
+            padding-bottom: 0px;
+        }
+        &.select {
+            .form-control {
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    .danger-text {
+        .form-control.border {
+            border: 1px solid red !important;
+            background-color: rgba(225,0,0, 0.1) !important; 
+        }
+    }
+    input {
+        /* border: 1px solid black; */
+        padding-left: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.2) !important;
+        border-radius: 6px !important;
+        padding-left: 10px !important;
+
+    }
+
+    
+}
+.c-form-container {
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+    .disabled {
+        pointer-events: auto !important;
+        cursor: not-allowed;
+    }
+    .nav-link-w {
+        font-size: 12px;
+        font-family: Chalkboard;
+        .nav-link {
+            text-decoration: none !important;
+            display: inline;
+            color: rgb(46, 131, 234);
+        }
+        .nav-link:hover {
+            text-decoration: underline !important;
+            color: black;
+        }
+    }
+}
+button {
+    color: #fff;
+    font-weight: 600;
+    border-radius: 25px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, .2) !important;
+    width: -webkit-fill-available;
+}
+
+button:hover {
+
+    /* :hover { */
+        cursor: pointer;
+    
+}
