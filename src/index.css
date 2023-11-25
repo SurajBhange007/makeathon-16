@@ -13,4 +13,6 @@ code {
 }
 #root {
   min-width: 1250px;
+  background-color: antiquewhite;
+  height: 100vh;
 }

@@ -3,13 +3,21 @@
     gap: 25%;
     height: 50px;
     padding: 0px 20px;
+    margin-bottom: 10px;
     align-items: center;
+    width: -webkit-fill-available;
+        position: absolute;
     justify-content: space-between;
     .nav-container {
         display: flex;
         gap: 20%;
         justify-content: right;
         .nav-item {
+            &.active {
+                background-color: white;
+            /* text-shadow: 0.005em 0.005em 0.03em rgba(0,0,0,1); */
+                color: rgba(var(--bs-primary-rgb),var(--bs-bg-opacity))!important;
+            }
             padding: 11px;
             border-radius: 4px;
         }
@@ -20,9 +28,9 @@
         font-size: 18px;
         font-weight: 500;
         &:hover {
-            background-color: white;
+            /* background-color: black; */
             /* text-shadow: 0.005em 0.005em 0.03em rgba(0,0,0,1); */
-            color: rgba(var(--bs-primary-rgb),var(--bs-bg-opacity))!important;
+            color: black !important;
         }
         text-decoration: none;
         &.brand-name {
@@ -39,4 +47,13 @@
             font-size: 20px;
         }
     }
+}
+footer {
+    display: flex;
+position: absolute;
+background-color: black;
+
+justify-content: center;
+align-items: center;
+width: -webkit-fill-available;
 }
