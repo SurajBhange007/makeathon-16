@@ -6,6 +6,7 @@ import Home from './components/Home';
 import MainNav from './components/MainNav';
 import LoginPage from './components/LoginPage';
 import SignUpPage from './components/SignUpPage';
+import ErrorPage from './components/ErrorPage';
 function App() {
 
   const router = createBrowserRouter([{
@@ -23,15 +24,29 @@ function App() {
    },
    {
     path:'*',
-    element: <div>Error Page</div>
+    element: <div ><ErrorPage/></div>
    }
   ],
   element: <MainNav />
 }]);
 
   return (
+    // <div stye={{height: '100vh'}}>
     <RouterProvider router={router} />
+    // </div>
   );
 }
 
 export default App;
+
+
+
+// body{
+//   height: 80%;
+//   margin: 10px;
+//   padding: 0;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background: transparent;
+// }
